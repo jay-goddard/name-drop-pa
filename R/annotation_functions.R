@@ -10,13 +10,13 @@
 # load in annotation files
 # (all orginally sources from www.pseudomonas.com)
 
-PAO1_orth <- read.csv('./data/Pseudomonas_aeruginosa_PAO1_107_orthologs.csv', stringsAsFactors = FALSE)
+PAO1_orth <- read.csv('./data/PAO1-PA14_genes-orthologs/Pseudomonas_aeruginosa_PAO1_107_orthologs.csv', stringsAsFactors = FALSE)
 
-PA14_orth <- read.csv('./data/Pseudomonas_aeruginosa_UCBPP-PA14_109_orthologs.csv', stringsAsFactors = FALSE)
+PA14_orth <- read.csv('./data/PAO1-PA14_genes-orthologs/Pseudomonas_aeruginosa_UCBPP-PA14_109_orthologs.csv', stringsAsFactors = FALSE)
 
-PA14_ann <- read.csv('./data/Pseudomonas_aeruginosa_UCBPP-PA14_109.csv', stringsAsFactors = FALSE, skip = 2)
+PA14_ann <- read.csv('./data/PAO1-PA14_genes-orthologs/Pseudomonas_aeruginosa_UCBPP-PA14_109.csv', stringsAsFactors = FALSE, skip = 2)
 
-PAO1_ann <- read.csv('./data/Pseudomonas_aeruginosa_PAO1_107.csv', stringsAsFactors = FALSE, skip = 2)
+PAO1_ann <- read.csv('./data/PAO1-PA14_genes-orthologs/Pseudomonas_aeruginosa_PAO1_107.csv', stringsAsFactors = FALSE, skip = 2)
 
 # functions
 
